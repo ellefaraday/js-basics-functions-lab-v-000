@@ -23,7 +23,7 @@ function calculatesFarePrice(start, destination) {
   } else if (distance > 2000) {
     console.log('25 dollars');
   } else if (distance > 400) {
-    price = (distance * 2)/100;
+    price = ((distance - 400) * 2)/100;
     console.log(price);
   } else {
     price = 0;
