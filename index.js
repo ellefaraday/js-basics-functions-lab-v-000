@@ -21,7 +21,7 @@ function calculatesFarePrice(start, destination) {
   if (distance > 2500) {
     console.log('cannot travel that far');
   } else if (distance > 2000) {
-    console.log('25 dollars');
+    price = 25;
   } else if (distance > 400) {
     price = ((distance - 400) * 2)/100;
     console.log(price);
