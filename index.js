@@ -28,5 +28,5 @@ function calculatesFarePrice(start, destination) {
   } else {
     price = 0;
   }
+  return price;
 }
-
